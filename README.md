@@ -1,0 +1,2 @@
+# theworldisflat
+init centos system
