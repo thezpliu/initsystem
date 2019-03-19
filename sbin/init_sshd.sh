@@ -11,7 +11,7 @@ fi
 
 ## Deny PermitRootLogin
 
-if [ -f /home/sadmin/.ssh/authorized_keys ] ; then
+if [ -f /home/thezpliu/.ssh/authorized_keys ] ; then
         if grep -q "^PermitRootLogin.*no" ${SSHD_CONFIG} ; then
 			:
 		else
