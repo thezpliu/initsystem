@@ -1,6 +1,7 @@
 #!/bin/bash
 echo 'vm.overcommit_memory=1' >> /etc/sysctl.conf
 echo 'fs.file-max=655350' >> /etc/sysctl.conf
+echo 'fs.aio-max-nr=1048576' >> /etc/sysctl.conf
 echo 'vm.swappiness=0' >> /etc/sysctl.conf
 
 echo 'kernel.msgmnb = 65536' >> /etc/sysctl.conf
