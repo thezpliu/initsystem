@@ -14,7 +14,7 @@ then
 mkdir /tmp/history/${LOGNAME}
 chmod 300 /tmp/history/${LOGNAME}
 fi
-export HISTSIZE=9999
+export HISTSIZE=50000
 DT=`date +"%Y%m%d_%H%M%S"`
 export HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S "
 export HISTFILE="/tmp/history/${LOGNAME}/history.$DT.$USER_IP"
